@@ -56,7 +56,7 @@ while True:
         host_connect, msg_connect = e.recv()
         time.sleep(2)
         if not msg_connect:
-            i += 1
-            if i > 10:
+            lost_packets_count += 1
+            if lost_packets_count > 10:
                 print("Connection lost")
             break
