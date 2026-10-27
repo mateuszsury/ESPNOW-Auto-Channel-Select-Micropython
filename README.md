@@ -26,3 +26,11 @@ is not a statement that every channel is supported or legal everywhere.
 * `python -m unittest -v`: host handshake tests using mocked radio I/O.
 
 MIT license. No model or external service is required.
+
+## Project overview
+
+A bounded MicroPython peer-discovery helper for ESP-NOW devices on ESP32.
+
+![ESP-NOW Channel Discovery — Host-tested handshake logic. Actual radio behavior depends on the board, firmware and permitted channels.](docs/assets/presentation/overview.svg)
+
+Host-tested handshake logic. Actual radio behavior depends on the board, firmware and permitted channels.
